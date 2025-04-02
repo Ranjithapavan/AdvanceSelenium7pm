@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="Test">
+    <classes>
+      <class name="Champaign_Practice.Create_Campaign"/>
+      <class name="Champaign_Practice.CampaignContactFilling"/>
+     </classes>
+  </test> <!-- Test -->
+   <test thread-count="2" parallel="tests" name="Test1">
+    <classes>
+      <class name="login.Login_Test"/>
+      <class name="Champaign_Practice.CreateProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
