@@ -43,7 +43,7 @@ import genericListenerUtility.ListenerImp;
 public class CampaignContactFilling extends BaseClass {
 //	@Parameters("browser")
 @Test(groups= {"IntegrationTest"})
-	public  void contactFillingTest() throws IOException, InterruptedException  {
+	public  void contactFillingWithCampaignTest() throws IOException, InterruptedException  {
 			
 		JavaUtility jutil=new JavaUtility();
 		int randomNum=jutil.getRandomNum(3000);
