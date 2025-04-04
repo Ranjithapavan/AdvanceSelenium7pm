@@ -11,7 +11,7 @@ public class ExcelFileUtility {
 	
 	public String readingDataFroemExcel(String sheet,int rownum,int cellnum) throws EncryptedDocumentException, IOException
 	{
-		FileInputStream fis= new FileInputStream("C:\\Users\\user\\eclipse-workspace_Ranjitha\\AdvanceSelenium\\src\\test\\resources\\ChamphaignTest.xlsx");
+		FileInputStream fis= new FileInputStream("C:\\Users\\user\\git\\AdvanceSelenium7pm\\AdvanceSelenium\\src\\test\\resources\\ChamphaignTest.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
 		String data = wb.getSheet(sheet).getRow(rownum).getCell(cellnum).getStringCellValue();
 		return data;

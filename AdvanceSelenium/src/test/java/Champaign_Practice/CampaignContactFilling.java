@@ -40,7 +40,7 @@ import genericBaseClassUtility.BaseClass;
 import genericListenerUtility.ListenerImp;
 
 //@Listeners(ListenerImp.class)
-public class CampaignContactFilling extends BaseClass {
+public class CampaignContactFillingTest extends BaseClass {
 //	@Parameters("browser")
 @Test(groups= {"IntegrationTest"})
 	public  void contactFillingWithCampaignTest() throws IOException, InterruptedException  {

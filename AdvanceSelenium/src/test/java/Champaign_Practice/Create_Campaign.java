@@ -34,7 +34,7 @@ import ObjectRepositry.LoginPage;
 import genericBaseClassUtility.BaseClass;
 import genericListenerUtility.ListenerImp;
 //@Listeners(ListenerImp.class)
-public class Create_Campaign extends BaseClass {
+public class Create_CampaignTest extends BaseClass {
 //	@Parameters("browser")
 	@Test()
 //	(enabled=false,invocationCount=4,threadPoolSize=4,priority=1,groups= {"SmokeTest"})

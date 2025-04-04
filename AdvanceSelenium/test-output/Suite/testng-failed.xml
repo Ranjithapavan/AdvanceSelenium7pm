@@ -6,6 +6,19 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Champaign_Practice.CreateProduct">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="addProductTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Champaign_Practice.CreateProduct -->
       <class name="login.Login_Test">
         <methods>
           <include name="beforeSuite"/>
@@ -19,6 +32,33 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- login.Login_Test -->
+      <class name="Champaign_Practice.CampaignContactFilling">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="contactFillingWithCampaignTest"/>
+        </methods>
+      </class> <!-- Champaign_Practice.CampaignContactFilling -->
+      <class name="Champaign_Practice.Create_Campaign">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="createCampaignTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="createCampaignWithDateTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Champaign_Practice.Create_Campaign -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

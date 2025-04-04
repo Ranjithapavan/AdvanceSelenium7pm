@@ -1,150 +1,477 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
   <reporter-output>
-    <line>
-      <![CDATA[CampaignBanner_2064added sucessfylly]]>
-    </line>
-    <line>
-      <![CDATA[CampaignBanner_1114added sucessfylly]]>
-    </line>
-    <line>
-      <![CDATA[ContactNameRashmi_1376added sucessfylly]]>
-    </line>
-    <line>
-      <![CDATA[Validation is passed]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-04-01T19:06:55 IST" name="Suite" finished-at="2025-04-01T19:08:26 IST" duration-ms="90902">
+  <suite started-at="2025-04-03T19:35:03 IST" name="Suite" finished-at="2025-04-03T19:35:04 IST" duration-ms="574">
     <groups>
       <group name="IntegrationTest">
-        <method signature="CampaignContactFilling.contactFillingTest()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" name="contactFillingTest" class="Champaign_Practice.CampaignContactFilling"/>
+        <method signature="CampaignContactFilling.contactFillingWithCampaignTest()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" name="contactFillingWithCampaignTest" class="Champaign_Practice.CampaignContactFilling"/>
       </group> <!-- IntegrationTest -->
     </groups>
-    <test started-at="2025-04-01T19:06:55 IST" name="Test" finished-at="2025-04-01T19:08:26 IST" duration-ms="90902">
+    <test started-at="2025-04-03T19:35:03 IST" name="Test" finished-at="2025-04-03T19:35:04 IST" duration-ms="574">
       <class name="login.Login_Test">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-01T19:08:04 IST" name="beforeClass" finished-at="2025-04-01T19:08:05 IST" duration-ms="1332" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-03T19:35:03 IST" name="beforeClass" finished-at="2025-04-03T19:35:03 IST" duration-ms="5" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-01T19:08:05 IST" name="beforeMethod" finished-at="2025-04-01T19:08:09 IST" duration-ms="3403" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-03T19:35:03 IST" name="beforeMethod" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginTest()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-01T19:08:09 IST" name="loginTest" finished-at="2025-04-01T19:08:11 IST" duration-ms="2075" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-03T19:35:04 IST" name="loginTest" finished-at="2025-04-03T19:35:04 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
-            <line>
-              <![CDATA[Validation is passed]]>
-            </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-01T19:08:11 IST" name="afterMethod" finished-at="2025-04-01T19:08:11 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-03T19:35:04 IST" name="afterMethod" finished-at="2025-04-03T19:35:04 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-01T19:08:11 IST" name="afterClass" finished-at="2025-04-01T19:08:11 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:login.Login_Test@52f27fbd]" started-at="2025-04-03T19:35:04 IST" name="afterClass" finished-at="2025-04-03T19:35:04 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- login.Login_Test -->
       <class name="Champaign_Practice.Create_Campaign">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:06:54 IST" name="beforeSuite" finished-at="2025-04-01T19:06:55 IST" duration-ms="699" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:02 IST" name="beforeSuite" finished-at="2025-04-03T19:35:03 IST" duration-ms="1031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:06:55 IST" name="beforeTest" finished-at="2025-04-01T19:06:55 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="beforeTest" finished-at="2025-04-03T19:35:03 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:06:55 IST" name="beforeClass" finished-at="2025-04-01T19:07:01 IST" duration-ms="6338" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="beforeClass" finished-at="2025-04-03T19:35:03 IST" duration-ms="3" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:07:01 IST" name="beforeMethod" finished-at="2025-04-01T19:07:06 IST" duration-ms="4856" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="beforeMethod" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignTest()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:07:06 IST" name="createCampaignTest" finished-at="2025-04-01T19:07:21 IST" duration-ms="15032" status="PASS">
+        <test-method signature="createCampaignTest()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="createCampaignTest" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
-            <line>
-              <![CDATA[CampaignBanner_2064added sucessfylly]]>
-            </line>
           </reporter-output>
         </test-method> <!-- createCampaignTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:07:21 IST" name="afterMethod" finished-at="2025-04-01T19:07:21 IST" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="afterMethod" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:07:21 IST" name="beforeMethod" finished-at="2025-04-01T19:07:26 IST" duration-ms="4435" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="beforeMethod" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createCampaignWithDateTest()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:07:26 IST" name="createCampaignWithDateTest" finished-at="2025-04-01T19:07:33 IST" duration-ms="7956" status="PASS">
+        <test-method signature="createCampaignWithDateTest()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="createCampaignWithDateTest" finished-at="2025-04-03T19:35:03 IST" duration-ms="1" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
-            <line>
-              <![CDATA[CampaignBanner_1114added sucessfylly]]>
-            </line>
           </reporter-output>
         </test-method> <!-- createCampaignWithDateTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:07:34 IST" name="afterMethod" finished-at="2025-04-01T19:07:34 IST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="afterMethod" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:07:34 IST" name="afterClass" finished-at="2025-04-01T19:07:34 IST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:03 IST" name="afterClass" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:08:26 IST" name="afterTest" finished-at="2025-04-01T19:08:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:04 IST" name="afterTest" finished-at="2025-04-03T19:35:04 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-01T19:08:26 IST" name="afterSuite" finished-at="2025-04-01T19:08:26 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Champaign_Practice.Create_Campaign@7fd50002]" started-at="2025-04-03T19:35:04 IST" name="afterSuite" finished-at="2025-04-03T19:35:04 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- Champaign_Practice.Create_Campaign -->
       <class name="Champaign_Practice.CampaignContactFilling">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-01T19:07:34 IST" name="beforeClass" finished-at="2025-04-01T19:07:35 IST" duration-ms="1478" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-03T19:35:03 IST" name="beforeClass" finished-at="2025-04-03T19:35:03 IST" duration-ms="5" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-01T19:07:35 IST" name="beforeMethod" finished-at="2025-04-01T19:07:40 IST" duration-ms="4571" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-03T19:35:03 IST" name="beforeMethod" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="contactFillingTest()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-01T19:07:40 IST" name="contactFillingTest" finished-at="2025-04-01T19:08:04 IST" duration-ms="23534" status="PASS">
+        <test-method signature="contactFillingWithCampaignTest()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-03T19:35:03 IST" name="contactFillingWithCampaignTest" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
-            <line>
-              <![CDATA[ContactNameRashmi_1376added sucessfylly]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- contactFillingTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-01T19:08:04 IST" name="afterMethod" finished-at="2025-04-01T19:08:04 IST" duration-ms="115" status="PASS">
+        </test-method> <!-- contactFillingWithCampaignTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-03T19:35:03 IST" name="afterMethod" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-01T19:08:04 IST" name="afterClass" finished-at="2025-04-01T19:08:04 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Champaign_Practice.CampaignContactFilling@45d84a20]" started-at="2025-04-03T19:35:03 IST" name="afterClass" finished-at="2025-04-03T19:35:03 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- Champaign_Practice.CampaignContactFilling -->
       <class name="Champaign_Practice.CreateProduct">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-01T19:08:11 IST" name="beforeClass" finished-at="2025-04-01T19:08:12 IST" duration-ms="1397" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-03T19:35:04 IST" name="beforeClass" finished-at="2025-04-03T19:35:04 IST" duration-ms="4" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-01T19:08:12 IST" name="beforeMethod" finished-at="2025-04-01T19:08:16 IST" duration-ms="3739" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-03T19:35:04 IST" name="beforeMethod" finished-at="2025-04-03T19:35:04 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="createProductTest()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-01T19:08:16 IST" name="createProductTest" finished-at="2025-04-01T19:08:25 IST" duration-ms="8642" status="PASS">
+        <test-method signature="addProductTest()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-03T19:35:04 IST" name="addProductTest" finished-at="2025-04-03T19:35:04 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\user\eclipse-workspace_Ranjitha\AdvanceSelenium\src\test\resources\commondata.properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at Generic_Utility.PropertiesFileUtility.redingDataFromPropFile(PropertiesFileUtility.java:11)
+at genericBaseClassUtility.BaseClass.beforeClass(BaseClass.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createProductTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-01T19:08:25 IST" name="afterMethod" finished-at="2025-04-01T19:08:25 IST" duration-ms="353" status="PASS">
+        </test-method> <!-- addProductTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-03T19:35:04 IST" name="afterMethod" finished-at="2025-04-03T19:35:04 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-01T19:08:25 IST" name="afterClass" finished-at="2025-04-01T19:08:26 IST" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Champaign_Practice.CreateProduct@4c163e3]" started-at="2025-04-03T19:35:04 IST" name="afterClass" finished-at="2025-04-03T19:35:04 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

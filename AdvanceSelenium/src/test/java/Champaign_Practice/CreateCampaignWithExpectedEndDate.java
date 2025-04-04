@@ -37,7 +37,7 @@ import ObjectRepositry.LoginPage;
 import genericBaseClassUtility.BaseClass;
 import genericListenerUtility.ListenerImp;
 //@Listeners(ListenerImp.class)
-public class CreateCampaignWithExpectedEndDate extends BaseClass {
+public class CreateCampaignWithExpectedEndDateTest extends BaseClass {
 //	@Parameters("browser")
 	@Test(groups= {"RegressionTest"})
 	public void createCampaignWithDateTest() throws InterruptedException, IOException
